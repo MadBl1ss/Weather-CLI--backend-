@@ -20,7 +20,6 @@ const printHelp = () => {
     )
 }
 
-
 const printWeather = (res, icon) => {
     console.log(
         dedent`${chalk.bgMagenta(' Weather  ')} Weather in ${res.name}
